@@ -1,0 +1,250 @@
+
+.contenido{
+    margin-top: 20px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+} 
+.panel{
+	width: 71%;
+	height: 90%;
+	position: fixed;
+}
+#catalogo .panel-body {
+	 padding-top: 5px;
+	 padding-bottom: 0px;
+}
+.img-cargando{
+    width: 15%;
+    height: 30%;
+    margin-left: 28.2%;
+    margin-right: 28.2%;
+    margin-top: 17%;
+    margin-bottom: 14.3%;
+}
+.imputSusess{
+	border-color:#3c763d;
+}
+.imputSusess:hover{
+	border-color:#3c763d;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #4CAF50;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #4CAF50;
+}
+.imputSusess:focus{
+	border-color:#3c763d;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #4CAF50;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #4CAF50;
+}
+.imputWarnig{
+	border-color:#843534;
+}
+.imputWarnig:hover{
+	border-color:#843534;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #843534;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #843534;
+}
+.imputWarnig:focus{
+	border-color:#843534;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #843534;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #843534;
+}
+.textarea{
+	resize: none;
+}
+.btnGuardar{
+    background: #169bd5;
+    color: #FFFFFF;
+    border: 0px;    
+}
+.btnGuardar:hover{
+    background: #169bd5;
+    color: #FFFFFF;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #169bd5;
+    border: 0px;
+}
+/********************listas*********************/
+.lista{
+	background: rgba(0, 0, 0, 0.36);
+	color: white;
+	padding: 0.5%;
+	margin-top: 0.2%;	
+}
+.lista-danger{
+	background: #f2dede;
+	color: #335573;
+}
+.lista-danger:hover{
+	background: #ebcccc;
+}
+.lista-green{
+	background: rgba(0, 128, 0, 0.75);
+	color: white;
+}
+.lista-green:hover{
+	background: #005f00;		
+	color: white;
+}
+.bootstrap-select.fit-width{
+	/*width:auto!important*/
+	width: 100px;
+}
+/**********************************************/
+/******************Catalogo*******************/
+
+	.catalogo{
+
+
+	  
+	}
+	.catalogo-datos tr td{
+		/*padding-left: 8px;*/
+		/*padding-top: 4px;*/
+	  	text-align: center;
+	  	vertical-align:middle;	  	
+	}
+@media (max-width: 1024px) {
+
+	h5 ,.h5 {
+		font-size : unset;
+	}
+	body{
+	 	font-size : larger;
+	}
+	.catalogo{
+
+  		font-size : smaller; 
+	  
+	}
+	.catalogo-datos{
+
+  		font-size:9px;
+	  	
+	}
+	.btn-default{
+
+		font-size:larger;
+
+	}
+ }
+/********************.popover******************/	
+
+	.popover{  
+		width: 400px;
+	}
+
+/*********************************************/
+@media (max-width: 768px) {
+
+	.contenido{
+		position: relative; 
+	} 
+	.panel{
+		width: 100%;
+		position: relative;
+	}
+	.img-cargando{
+	    width: 15%;
+	    height: 30%;
+	    margin-left: 42.2%;
+	    margin-right: 42.2%;
+	    margin-top: 17%;
+	    margin-bottom: 14.3%;
+	
+	}
+	
+	.btnGuardar{
+	    background: #169bd5;
+	    color: #FFFFFF;
+	}	
+	.btnGuardar:hover{
+	    background: #169bd5;
+	    color: #FFFFFF;
+	    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #169bd5;
+	    border: 0px;
+	}
+}
+/***********************************/
+/*Mensajes*/
+	.alertify-notifier .ajs-message.ajs-success{
+
+		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0);
+		background: rgba(0, 128, 0, 0.75);
+
+	}
+/***********************************/	
+/***********************************/
+/* captcha */
+	.btnRefresh{
+		background-color:#8B8B8B;
+		border:0;
+		padding:7px 10px;
+		color:#FFF;
+		float:left; 
+		width: 100%;
+	}	
+/***********************************/
+/* panel de acceso */
+
+
+	#panelAcceso{
+				width: 30%;
+			/* height: 30%; */
+			position: absolute;
+			background-color: rgba(255,255,255,0.70);
+			margin-top: 10%;
+			border-radius: 5px;
+			padding-top: 2%;
+			padding-bottom: 0.5%;
+			float: right;
+			right: 18%;
+	}
+	@media (max-width: 1024px) {
+		#panelAcceso{
+				width: 36%;
+				right: 7%;
+		}
+
+	}
+
+	@media (max-width: 768px) {
+		#panelAcceso{
+				width: 36%;
+				right: 7%;
+		}
+	}
+
+/***********************************/
+/*   */
+
+tbody{
+    font-size: 11px;
+}
+tbody .btn{
+    padding: 0px;
+}
+tbody button.btn{
+    padding: 0px;
+}
+/*****************************************/
+/*Control de panel colapsable - perfil de usuario - permisologia*/
+
+.itemOpen{
+	color: black;
+	background: #ffffff;
+	border-radius: 0px 0px 4px 4px;
+	margin-top: 25px; 
+	display:block;
+}
+.itemClose{
+	color: black;
+	background: #ffffff;
+	border-radius: 0px 0px 4px 4px;
+	margin-top: 25px; 
+	display:none;
+}

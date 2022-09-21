@@ -1,0 +1,25 @@
+#Editor para gestion de CRONJobs
+#crontab -e
+##->Reiniciar servicio:
+#service cron restart
+
+###########TESTING - SIGMANSTEC#######
+
+##-> Cada minuto
+#  * * * * *  php /var/www/html/SIGMANSTEC/Ctrl/mantenimiento/ctrl_respaldo_automatico_LINUX.php
+
+###############SIGMANSTEC############# 
+####### “De lunes a viernes.” 
+
+##->  “At 07:30.” 
+	30 7 * * * 1-5 php /var/www/html/SIGMANSTEC/Ctrl/mantenimiento/ctrl_respaldo_automatico_LINUX.php 
+
+##->  “At 16:30.” 
+	30 16 * * * 1-5 php /var/www/html/V2/SIGMANSTEC/Ctrl/mantenimiento/ctrl_respaldo_automatico_LINUX.php
+
+######################################
+
+#https://crontab.guru/
+# para usar hay que estar en la carpeta del log del sistema 
+# var/log/
+#tail -f syslog | grep CRON

@@ -1,0 +1,156 @@
+/***********************************CSS para modulos***********************************/
+
+
+.btn-cfg-admin{
+	font-style: normal;
+	color: white;
+	background: #337ab7;
+	border-color: white;
+	width: 100%;
+}
+.btn-cfg-admin:hover{
+	font-style: normal;
+	color: white;
+	background: #e4bf04;
+	border-color: white;
+	width: 100%;
+}
+
+/**************** mtn - Modulos - INICIO ***********/
+#vtnModulo.ventana-modal-panel-expandido{
+	margin-top: 2%;
+}
+/**************** mtn - Modulos - FIN *************/
+
+.ventana-modal{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.72);
+	z-index: 10000;
+}
+.ventana-modal-capa2{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.72);
+	z-index: 20000;
+}
+.ventana-modal-capa3{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.72);
+	z-index: 30000;
+}
+.ventana-modal-suspension{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.72);
+	z-index: 999999999999999999999999999999999999;
+}
+.ventana-modal-cfg{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.15);
+	z-index: 999;
+}
+.ventana-modal-cfg-internos{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.05);
+	z-index: 999999999999999999999;
+}
+
+.ventana-modal-panel-expandido{
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: 6%;
+	margin-bottom: 24%;
+	width: 66%;
+	height: auto;
+	position: relative;
+}
+.ventana-modal-panel-grande{
+	margin-left: 1%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 24%;
+	width: 90%;
+	height: auto;
+	position: relative;
+}
+.ventana-modal-panel-mediano{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
+	margin-bottom: 24%;
+	width: 90%;
+	height: auto;
+	position: relative;
+}
+.ventana-modal-panel-mediano-sintop{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	width: 90%;
+	height: auto;
+	position: relative;
+}
+.ventana-modal-panel-cerrar{
+	float: right;
+	color: #337ab7;
+	background: rgba(255, 255, 255, 0.47);
+	border-radius: 5px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+.ventana-modal-panel-cerrar:hover{
+	text-decoration:none;
+	color: white;
+	background: rgba(0, 0, 0, 0.31);
+
+}
+
+
+
+
+
+/* CSS Para Acciones */
+.ventana-modal-panel-accionMostrar{
+	display:block;
+}
+.ventana-modal-panel-accionCerrar{
+	display:none;
+}
+
+

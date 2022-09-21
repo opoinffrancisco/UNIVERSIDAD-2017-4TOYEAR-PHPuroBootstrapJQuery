@@ -1,0 +1,1 @@
+<iframe src="Vist/paginas/manuales/Manual-del-sistema.pdf#zoom=38" style="width: 100%;height: 100%; zoom: 3;"></iframe>

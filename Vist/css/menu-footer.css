@@ -1,0 +1,55 @@
+
+
+.menu-footer{
+	width: 75%;
+	height: 20px;
+	float: right;
+	right: 0px;
+	background: rgb(80, 133, 179);
+	position: fixed;
+	bottom: 0px;
+	z-index: -3;
+}
+.menu-footer-mensaje{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.menu-footer-datos{
+	width: 55%;
+	height: 100%;
+	right: 0px;
+	float: right;
+	background:#d7d7d7;
+	color: #777;
+	padding-left: 2%;
+}
+
+.menu-footer-datos-cargo{
+	width: 34%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.menu-footer-datos-nombre{
+	width: 66%;
+	position: relative;
+	float: right;
+	/* text-align: center; */
+}
+
+@media (max-width: 768px) {
+
+	.menu-footer{
+		margin-bottom: 0px;
+		z-index: 1;
+		width: 100%;
+	}
+	.menu-footer-datos{
+		width:52%;
+	}
+
+
+}
+

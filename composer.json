@@ -1,0 +1,7 @@
+{
+    "require": {
+        "firebase/php-jwt": "^4.0",
+        "dompdf/dompdf": "dev-master"
+    }
+
+}

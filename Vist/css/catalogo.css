@@ -1,0 +1,20 @@
+
+.pestana-tab-activo{
+	background:#fff ;
+}
+.pestana-tab-inactivo{
+	color:white;
+	background: rgb(35, 95, 146);	
+}
+.nav-tabs{
+
+	border-bottom: 0px;
+}
+.nav-tabs > li{
+
+	margin-bottom:0px;
+}
+.panel-primary > .panel-heading{
+
+border-bottom: 5px solid #ecc608;
+}
